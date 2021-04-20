@@ -6,7 +6,7 @@ from pyzbar.pyzbar import decode
 
 #
 #Made by Pierre-Ardo PERON
-#In 2021 for a projet at ESME Sudria Paris
+#In 2021 for a college projet at ESME Sudria Paris
 #
 
 print("Starting the program")
