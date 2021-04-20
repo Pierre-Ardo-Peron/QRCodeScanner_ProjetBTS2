@@ -13,7 +13,7 @@ print("Starting the program")
 # N° of second of delay
 time.sleep(2)
 
-#WebCam direct
+#WebCam direct (take out "cv2.CAP_DSHOW" if you work on a raspberry, if you only have error webcam when you start the program it's doesn't work with certain camera)
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 #FPS settings
 cap.set(cv2.CAP_PROP_FPS, 30.0)
